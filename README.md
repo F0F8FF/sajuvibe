@@ -5,7 +5,7 @@
 생년월일시를 입력하면 AI가 사주팔자의 오행(五行)과 음양(陰陽)을 분석하고,  
 당신의 기질과 에너지에 어울리는 음악과 플레이리스트를 추천해드립니다.
 
-**[라이브 데모 →](#)**
+https://saju-vibe.vercel.app
 
 ## 기능
 
@@ -23,7 +23,6 @@
 
 - **Frontend**: Next.js 16 (App Router) + TypeScript
 - **Styling**: Tailwind CSS v4
-- **사주 계산**: [@orrery/core](https://github.com/rath/orrery) (AGPL-3.0)
 - **AI 분석**: Google Gemini 2.0 Flash
 - **음악 재생**: Spotify Web Playback SDK + OAuth 2.0
 - **음악 검색**: Spotify Web API / YouTube
@@ -33,7 +32,7 @@
 ```
 사용자 입력 (생년월일시 + 성별)
     ↓
-@orrery/core.calculateSaju()
+사주 계산
     → 4기둥 (년·월·일·시주) 계산
     → 오행 분포 계산
     → 부족한 오행 감지
