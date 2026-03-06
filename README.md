@@ -23,7 +23,7 @@ https://saju-vibe.vercel.app
 
 - **Frontend**: Next.js 16 (App Router) + TypeScript
 - **Styling**: Tailwind CSS v4
-- **AI 분석**: Google Gemini 2.0 Flash
+- **AI 분석**: Google Gemini 2.5 Flash
 - **음악 재생**: Spotify Web Playback SDK + OAuth 2.0
 - **음악 검색**: Spotify Web API / YouTube
 
@@ -37,7 +37,7 @@ https://saju-vibe.vercel.app
     → 오행 분포 계산
     → 부족한 오행 감지
     ↓
-Google Gemini 2.0 Flash
+Google Gemini 2.5 Flash
     → 사주 기반 성격 분석
     → 음악 무드 및 장르 추천
     → 구체적인 곡 추천 (제목 + 아티스트 + 이유)
